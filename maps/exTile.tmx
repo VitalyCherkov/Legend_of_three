@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="10" height="8" tilewidth="70" tileheight="70" nextobjectid="194">
+ <tileset firstgid="1" name="field_texture" tilewidth="70" tileheight="70" tilecount="36" columns="6">
+  <image source="../cmake-build-debug/images/field_texture.png" width="420" height="420"/>
+ </tileset>
+ <objectgroup name="background">
+  <object id="33" gid="1" x="70" y="70" width="70" height="70"/>
+  <object id="34" gid="1" x="140" y="70" width="70" height="70"/>
+  <object id="35" gid="1" x="280" y="70" width="70" height="70"/>
+  <object id="36" gid="1" x="280" y="70" width="70" height="70"/>
+  <object id="37" gid="1" x="210" y="70" width="70" height="70"/>
+  <object id="38" gid="1" x="350" y="70" width="70" height="70"/>
+  <object id="39" gid="1" x="420" y="70" width="70" height="70"/>
+  <object id="40" gid="1" x="490" y="70" width="70" height="70"/>
+  <object id="41" gid="1" x="560" y="70" width="70" height="70"/>
+  <object id="43" gid="1" x="700" y="70" width="70" height="70" visible="0"/>
+  <object id="70" gid="2" x="0" y="560" width="70" height="70"/>
+  <object id="71" gid="2" x="0" y="490" width="70" height="70"/>
+  <object id="72" gid="2" x="0" y="420" width="70" height="70"/>
+  <object id="73" gid="2" x="0" y="350" width="70" height="70"/>
+  <object id="74" gid="2" x="0" y="280" width="70" height="70"/>
+  <object id="75" gid="2" x="0" y="210" width="70" height="70"/>
+  <object id="76" gid="2" x="0" y="140" width="70" height="70"/>
+  <object id="77" gid="2" x="0" y="70" width="70" height="70"/>
+  <object id="78" gid="3" x="70" y="140" width="70" height="70"/>
+  <object id="79" gid="3" x="140" y="140" width="70" height="70"/>
+  <object id="80" gid="3" x="210" y="140" width="70" height="70"/>
+  <object id="81" gid="3" x="280" y="140" width="70" height="70"/>
+  <object id="82" gid="3" x="350" y="140" width="70" height="70"/>
+  <object id="83" gid="3" x="350" y="140" width="70" height="70"/>
+  <object id="84" gid="3" x="420" y="140" width="70" height="70"/>
+  <object id="85" gid="3" x="490" y="140" width="70" height="70"/>
+  <object id="86" gid="3" x="560" y="140" width="70" height="70"/>
+  <object id="87" gid="3" x="560" y="140" width="70" height="70"/>
+  <object id="92" gid="3" x="560" y="210" width="70" height="70"/>
+  <object id="93" gid="3" x="490" y="210" width="70" height="70"/>
+  <object id="94" gid="3" x="420" y="210" width="70" height="70"/>
+  <object id="95" gid="3" x="350" y="210" width="70" height="70"/>
+  <object id="96" gid="3" x="280" y="210" width="70" height="70"/>
+  <object id="97" gid="3" x="210" y="210" width="70" height="70"/>
+  <object id="98" gid="3" x="140" y="210" width="70" height="70"/>
+  <object id="99" gid="3" x="70" y="210" width="70" height="70"/>
+  <object id="100" gid="3" x="70" y="280" width="70" height="70"/>
+  <object id="101" gid="3" x="210" y="280" width="70" height="70"/>
+  <object id="102" gid="3" x="140" y="280" width="70" height="70"/>
+  <object id="103" gid="3" x="140" y="350" width="70" height="70"/>
+  <object id="104" gid="3" x="70" y="420" width="70" height="70"/>
+  <object id="105" gid="3" x="140" y="420" width="70" height="70"/>
+  <object id="106" gid="3" x="70" y="350" width="70" height="70"/>
+  <object id="107" gid="3" x="210" y="350" width="70" height="70"/>
+  <object id="108" gid="3" x="210" y="420" width="70" height="70"/>
+  <object id="109" gid="3" x="280" y="420" width="70" height="70"/>
+  <object id="110" gid="3" x="280" y="350" width="70" height="70"/>
+  <object id="111" gid="3" x="280" y="280" width="70" height="70"/>
+  <object id="112" gid="3" x="350" y="280" width="70" height="70"/>
+  <object id="113" gid="3" x="350" y="350" width="70" height="70"/>
+  <object id="114" gid="3" x="350" y="420" width="70" height="70"/>
+  <object id="115" gid="3" x="420" y="420" width="70" height="70"/>
+  <object id="116" gid="3" x="420" y="350" width="70" height="70"/>
+  <object id="117" gid="3" x="420" y="280" width="70" height="70"/>
+  <object id="118" gid="3" x="490" y="280" width="70" height="70"/>
+  <object id="119" gid="3" x="490" y="350" width="70" height="70"/>
+  <object id="120" gid="3" x="490" y="420" width="70" height="70"/>
+  <object id="121" gid="3" x="560" y="420" width="70" height="70"/>
+  <object id="122" gid="3" x="560" y="350" width="70" height="70"/>
+  <object id="123" gid="3" x="560" y="280" width="70" height="70"/>
+  <object id="130" gid="3" x="70" y="490" width="70" height="70"/>
+  <object id="131" gid="3" x="70" y="560" width="70" height="70"/>
+  <object id="138" gid="3" x="140" y="560" width="70" height="70"/>
+  <object id="139" gid="3" x="140" y="490" width="70" height="70"/>
+  <object id="140" gid="3" x="210" y="490" width="70" height="70"/>
+  <object id="141" gid="3" x="210" y="560" width="70" height="70"/>
+  <object id="148" gid="3" x="280" y="560" width="70" height="70"/>
+  <object id="149" gid="3" x="280" y="490" width="70" height="70"/>
+  <object id="150" gid="3" x="350" y="490" width="70" height="70"/>
+  <object id="151" gid="3" x="350" y="560" width="70" height="70"/>
+  <object id="158" gid="3" x="420" y="560" width="70" height="70"/>
+  <object id="159" gid="3" x="420" y="490" width="70" height="70"/>
+  <object id="160" gid="3" x="490" y="490" width="70" height="70"/>
+  <object id="161" gid="3" x="490" y="560" width="70" height="70"/>
+  <object id="168" gid="3" x="560" y="560" width="70" height="70"/>
+  <object id="169" gid="3" x="560" y="490" width="70" height="70"/>
+  <object id="183" gid="2" x="630" y="70" width="70" height="70"/>
+  <object id="184" gid="2" x="630" y="140" width="70" height="70"/>
+  <object id="185" gid="2" x="630" y="210" width="70" height="70"/>
+  <object id="186" gid="2" x="630" y="420" width="70" height="70"/>
+  <object id="187" gid="2" x="630" y="350" width="70" height="70"/>
+  <object id="188" gid="2" x="630" y="280" width="70" height="70"/>
+  <object id="189" gid="2" x="630" y="490" width="70" height="70"/>
+  <object id="191" gid="2" x="630" y="560" width="70" height="70"/>
+ </objectgroup>
+</map>

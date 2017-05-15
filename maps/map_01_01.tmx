@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="12" height="12" tilewidth="70" tileheight="70" nextobjectid="1">
+ <tileset firstgid="1" name="texture_field" tilewidth="70" tileheight="70" spacing="10" tilecount="216" columns="18">
+  <image source="../images/texture_field.png" trans="5c9785" width="1431" height="951"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="12" height="12">
+  <data encoding="csv">
+203,203,203,203,203,203,203,203,203,203,203,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,0,0,0,0,0,0,0,0,0,0,203,
+203,203,203,203,203,203,203,203,203,203,203,203
+</data>
+ </layer>
+</map>

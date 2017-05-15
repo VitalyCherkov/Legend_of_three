@@ -1,0 +1,16 @@
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/install/local.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/install.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/CMakeFiles/legend_of_three.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/install/strip.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/install/local.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/rebuild_cache.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/edit_cache.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/uninstall.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/xmltest.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/install.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/list_install_components.dir
+/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/CMakeFiles/tinyxml2.dir

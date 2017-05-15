@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <xml_files>
+        <main_texture>global_parameters.xml</main_texture>
+        <game_texture>game_map.xml</game_texture>
+        <levels>
+            <level id = "1">Here adress of file</level>
+        </levels>
+    </xml_files>
+
+    <images>
+        <main_texture>
+            images/main_texture.png
+        </main_texture>
+
+        <game_textures>
+            <item>
+                <name>Usual</name>
+                <file>images/mini_texture.png</file>
+            </item>
+
+            <item>
+                <name>Bold</name>
+                <file>images/bold.png</file>
+            </item>
+        </game_textures>
+    </images>
+</config>

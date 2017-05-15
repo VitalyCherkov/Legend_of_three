@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g -DDEBUG  -shared -Wl,-soname,libtinyxml2d.so.4 -o libtinyxml2d.so.4.0.1 CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o 

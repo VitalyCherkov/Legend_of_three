@@ -1,0 +1,508 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tinyxml2-master/tinyxml2.h
+ctype.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+cctype
+-
+climits
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+stdint.h
+-
+android/log.h
+-
+assert.h
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/area.cpp
+iostream
+-
+area.h
+/home/vcherkov/Рабочий стол/legend_of_three/area.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/area.h
+memory
+-
+SFML/Graphics.hpp
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/all_content_actions.h
+create_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.h
+delete_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.h
+move_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.h
+swap_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.cpp
+create_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.h
+i_action_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h
+../field/cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+../field/game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+memory
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.cpp
+delete_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.h
+i_action_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h
+../field/cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+../field/game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+memory
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h
+iostream
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.cpp
+move_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.h
+i_action_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h
+../field/cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+../field/game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+memory
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.cpp
+swap_action.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.h
+i_action_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h
+../field/cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+../field/game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+memory
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/all_controllers.h
+switcher.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.h
+slider.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.h
+grid.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.h
+button.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.h
+frame.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.cpp
+button.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.h
+../global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.h
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.cpp
+frame.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.h
+../global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.cpp
+grid.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.h
+../global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+iostream
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.h
+../area.h
+/home/vcherkov/Рабочий стол/legend_of_three/area.h
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+set
+-
+vector
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.cpp
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+../area.h
+/home/vcherkov/Рабочий стол/legend_of_three/area.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.cpp
+iostream
+-
+slider.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.h
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.cpp
+iostream
+-
+switcher.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.h
+i_controller.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/designer_t.cpp
+designer_t.h
+/home/vcherkov/Рабочий стол/legend_of_three/designer_t.h
+global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+utility
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/designer_t.h
+SFML/Graphics.hpp
+-
+string
+-
+memory
+-
+field/game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+field/cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+controllers/all_controllers.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/all_controllers.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.cpp
+cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+math.h
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+SFML/Graphics.hpp
+-
+memory
+-
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+iostream
+-
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.cpp
+game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+SFML/Graphics.hpp
+-
+memory
+-
+../area.h
+/home/vcherkov/Рабочий стол/legend_of_three/area.h
+../utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.cpp
+game_field.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.h
+../game_managing/play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.h
+game_cell.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h
+cell_content.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h
+string
+-
+vector
+-
+functional
+-
+algorithm
+-
+random
+-
+queue
+-
+set
+-
+list
+-
+../level.h
+/home/vcherkov/Рабочий стол/legend_of_three/level.h
+../designer_t.h
+/home/vcherkov/Рабочий стол/legend_of_three/designer_t.h
+../content_actions/all_content_actions.h
+/home/vcherkov/Рабочий стол/legend_of_three/content_actions/all_content_actions.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.cpp
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.cpp
+game_engine.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.h
+menu.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.h
+vector
+-
+SFML/Graphics.hpp
+-
+string
+-
+memory
+-
+../level.h
+/home/vcherkov/Рабочий стол/legend_of_three/level.h
+../designer_t.h
+/home/vcherkov/Рабочий стол/legend_of_three/designer_t.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.cpp
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+game_ower.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+menu.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/help.cpp
+help.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/help.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/help.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+game_engine.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/levels.cpp
+levels.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/levels.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/levels.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.cpp
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+settings.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+menu.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.cpp
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+menu.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+pause.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.cpp
+win.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.h
+game_ower.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.h
+settings.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.h
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+pause.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+../field/game_field.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.cpp
+settings.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.h
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.cpp
+win.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.h
+exit_program.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h
+game_ower.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.h
+play.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h
+menu.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.h
+i_state.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.cpp
+sstream
+-
+iostream
+-
+global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+SFML/Graphics.hpp
+-
+utility
+-
+string
+-
+map
+-
+memory
+-
+vector
+-
+tinyxml2.h
+/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2.h
+utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/level.cpp
+sstream
+-
+iostream
+-
+level.h
+/home/vcherkov/Рабочий стол/legend_of_three/level.h
+global_parameters.h
+/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/level.h
+tinyxml2.h
+/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2.h
+utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/main.cpp
+string
+-
+vector
+-
+iostream
+-
+utility
+-
+SFML/Graphics.hpp
+-
+controllers/all_controllers.h
+/home/vcherkov/Рабочий стол/legend_of_three/controllers/all_controllers.h
+field/game_field.h
+/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.h
+game_managing/game_engine.h
+/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.cpp
+utiles.h
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+
+/home/vcherkov/Рабочий стол/legend_of_three/utiles.h
+random
+-
+functional
+-
+chrono
+-
+SFML/Graphics/Color.hpp
+-
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<global_parameters>
+
+    <main_texture>
+        <point width = "35" height = "35" />
+        <controllers>
+            <controller name = "slider" type = "">
+                <row_size>1</row_size>
+                <col_size>4</col_size>
+
+                <row_pos>0</row_pos>
+                <col_pos>4</col_pos>
+            </controller>
+
+            <controller name = "point" type = "">
+                <row_size>1</row_size>
+                <col_size>1</col_size>
+
+                <row_pos>0</row_pos>
+                <col_pos>8</col_pos>
+            </controller>
+
+            <controller name = "switcher" type = "on">
+                <row_size>1</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>0</row_pos>
+                <col_pos>0</col_pos>
+            </controller>
+
+            <controller name = "switcher" type = "off">
+                <row_size>1</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>0</row_pos>
+                <col_pos>2</col_pos>
+            </controller>
+
+            <controller name = "button" type = "play">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>2</row_pos>
+                <col_pos>0</col_pos>
+            </controller>
+
+            <controller name = "button" type = "pause">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>2</row_pos>
+                <col_pos>2</col_pos>
+            </controller>
+
+            <controller name = "button" type = "restart">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>2</row_pos>
+                <col_pos>4</col_pos>
+            </controller>
+
+            <controller name = "button" type = "usual_long">
+                <row_size>2</row_size>
+                <col_size>4</col_size>
+
+                <row_pos>2</row_pos>
+                <col_pos>6</col_pos>
+            </controller>
+
+            <controller name = "button" type = "usual">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>2</row_pos>
+                <col_pos>10</col_pos>
+            </controller>
+
+            <controller name = "button" type = "unlock">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>6</row_pos>
+                <col_pos>0</col_pos>
+            </controller>
+
+            <controller name = "button" type = "lock">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>6</row_pos>
+                <col_pos>2</col_pos>
+            </controller>
+
+            <controller name = "button" type = "menu">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>6</row_pos>
+                <col_pos>12</col_pos>
+            </controller>
+
+            <controller name = "button" type = "exit">
+                <row_size>2</row_size>
+                <col_size>2</col_size>
+
+                <row_pos>6</row_pos>
+                <col_pos>10</col_pos>
+            </controller>
+
+            <controller name = "frame" type = "">
+              <row_size>1</row_size>
+              <col_size>1</col_size>
+
+              <row_pos>8</row_pos>
+              <col_pos>5</col_pos>
+            </controller>
+        </controllers>
+
+        <frame>
+            <angle index = "1">
+              <row_pos>6</row_pos>
+              <col_pos>4</col_pos>
+            </angle>
+            <angle index = "2">
+              <row_pos>6</row_pos>
+              <col_pos>6</col_pos>
+            </angle>
+            <angle index = "3">
+              <row_pos>10</row_pos>
+              <col_pos>6</col_pos>
+            </angle>
+            <angle index = "4">
+              <row_pos>10</row_pos>
+              <col_pos>4</col_pos>
+            </angle>
+            <side index = "1">
+              <row_pos>6</row_pos>
+              <col_pos>5</col_pos>
+            </side>
+            <side index = "2">
+              <row_pos>8</row_pos>
+              <col_pos>6</col_pos>
+            </side>
+            <side index = "3">
+              <row_pos>10</row_pos>
+              <col_pos>5</col_pos>
+            </side>
+            <side index = "4">
+              <row_pos>8</row_pos>
+              <col_pos>4</col_pos>
+            </side>
+            <internal index = "1">
+              <row_pos>8</row_pos>
+              <col_pos>5</col_pos>
+            </internal>
+        </frame>
+
+    </main_texture>
+</global_parameters>

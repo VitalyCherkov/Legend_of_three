@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="legend_of_three"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\;CMake Files\tinyxml2-master\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="legend_of_three">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/legend_of_three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 legend_of_three"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="legend_of_three/fast">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/legend_of_three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 legend_of_three/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xmltest">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/xmltest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 xmltest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xmltest/fast">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/xmltest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 xmltest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml2">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/libtinyxml2d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTINYXML2_EXPORT"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 tinyxml2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml2/fast">
+				<Option output="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master/libtinyxml2d.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTINYXML2_EXPORT"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master"/>
+					<Add directory="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 tinyxml2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vcherkov/Рабочий\ стол/legend_of_three/cmake-build-debug/tinyxml2-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/area.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/area.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/all_content_actions.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/create_action.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/delete_action.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/i_action_content.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/move_action.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/content_actions/swap_action.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/all_controllers.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/button.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/frame.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/grid.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/i_controller.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/slider.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/controllers/switcher.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/designer_t.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/designer_t.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/cell_content.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/game_cell.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/field/game_field.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/exit_program.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_engine.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/game_ower.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/help.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/help.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/i_state.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/levels.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/levels.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/menu.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/pause.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/play.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/settings.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/game_managing/win.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/global_parameters.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/level.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/level.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/main.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/tinyxml2.cpp">
+			<Option target="tinyxml2"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/tinyxml2.h">
+			<Option target="tinyxml2"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/xmltest.cpp">
+			<Option target="xmltest"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/utiles.cpp">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/utiles.h">
+			<Option target="legend_of_three"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/tinyxml2.pc.in">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/tinyxml2.pc.in">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+		<Unit filename="/home/vcherkov/Рабочий стол/legend_of_three/tinyxml2-master/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\tinyxml2-master\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

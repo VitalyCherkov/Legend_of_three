@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -DDEBUG   CMakeFiles/xmltest.dir/xmltest.cpp.o  -o xmltest -Wl,-rpath,"/home/vcherkov/Рабочий стол/legend_of_three/cmake-build-debug/tinyxml2-master" -rdynamic libtinyxml2d.so.4.0.1 
