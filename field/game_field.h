@@ -106,12 +106,13 @@ private:
     //  Работа с бонусом
     // ----------------------------------------------------------
 
+    void calc_new_bonuses();
     pair <bonus_t, pair_ii> recognize_bonus
             (size_t row, size_t col) const;
     uint recognize_bonus_by_col(size_t row, size_t col) const;
     bonus_t recognize_bonus_by_res(uint v_number, uint h_number) const;
 
-    void calc_new_bonuses();
+
     void set_bonus_content(size_t row, size_t col,
                            execution_set_t &execution_set);
     void activate_bonus(set <pair_ii> &bonus_set,
@@ -131,10 +132,8 @@ private:
     void activate_CROSS_bonus(set <pair_ii> &bonus_set,
                           const pair_ii &coordinate);
 
-
-
     // ----------------------------------------------------------
-    //  Сборка сета
+    //  Обработка сета
     // ----------------------------------------------------------
 
     void create_execution_set();
@@ -148,6 +147,19 @@ private:
     void set_upper_content(size_t row, size_t col,
                            execution_set_t &execution_set);
 
+    // ----------------------------------------------------------
+    //  Даунгрейд и т.д.
+    // ----------------------------------------------------------
+
+    void set_change_cell(uint row, uint col);
+    void set_downgrade_around(uint row, uint col);
+    void complete_changes();
+    void calculate_change(uint row, uint col);
+
+    // ----------------------------------------------------------
+    //  Поля класса
+    // ----------------------------------------------------------
+
     const pair_ii none_position = {-1, -1};
     pair_ii clicked_position;
     bool mouse_released;
@@ -158,11 +170,7 @@ private:
     queue <execution_set_t> execution_q;
     vector <vector <shared_ptr <game_cell> > > field;
     vector <vector <pair_ii> > field_condition;
-
-    void set_change_cell(uint row, uint col);
-    void set_downgrade_around(uint row, uint col);
-    void complete_changes();
-    void calculate_change(uint row, uint col);
+    vector <float> create_distance;
 
     set < pair_ii > downdrade_s;
     set < pair_ii > clearice_s;

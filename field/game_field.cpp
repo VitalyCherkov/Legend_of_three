@@ -16,6 +16,7 @@ game_field::game_field(const area &new_area, const level &lvl,
         execution_q(),
         field(lvl.get_rows()),
         field_condition(lvl.get_rows()),
+        create_distance(lvl.get_cols()),
         downdrade_s(),
         clearice_s(),
         opencage_s(),
@@ -131,6 +132,8 @@ void game_field::update_field_condition() {
             update_cell_condition(i, j);
     complete_changes();
     calc_new_bonuses();
+    create_distance.clear();
+    create_distance.resize(get_cols());
 }
 
 
@@ -316,6 +319,25 @@ game_field::pair_ii game_field::get_position_in_focus() const {
     return none_position;
 }
 
+void game_field::calc_new_bonuses() {
+    bonuses.clear();
+
+    for(uint i = 0; i < get_rows(); i++)
+        for(uint j = 0; j < get_cols(); j++) {
+            if(field_condition[i][j].second != 1)
+                continue;
+            if(!field[i][j] || field[i][j]->is_empty())
+                continue;
+
+            pair <bonus_t, pair_ii> bonus = recognize_bonus(i, j);
+            if(bonus.first != bonus_t::NONE)
+                bonuses.insert(
+                        {bonus.second, {field[i][j]->get_content()->get_content_type()
+                                , bonus.first}});
+        }
+}
+
+
 pair<bonus_t, game_field::pair_ii> game_field::recognize_bonus
         (size_t row, size_t col) const {
 
@@ -380,21 +402,6 @@ bonus_t game_field::recognize_bonus_by_res(uint h_number, uint v_number) const {
 }
 
 
-void game_field::calc_new_bonuses() {
-    bonuses.clear();
-
-    for(uint i = 0; i < get_rows(); i++)
-        for(uint j = 0; j < get_cols(); j++) {
-            if(field_condition[i][j].first != 1)
-                continue;
-
-            pair <bonus_t, pair_ii> bonus = recognize_bonus(i, j);
-            if(bonus.first != bonus_t::NONE)
-                bonuses.insert(
-                        {bonus.second, {field[i][j]->get_content()->get_content_type()
-                                        , bonus.first}});
-        }
-}
 
 void game_field::set_bonus_content(size_t row, size_t col,
                                   execution_set_t &execution_set) {
@@ -442,8 +449,14 @@ void game_field::activate_bonus(set <pair_ii> &bonus_set, const pair_ii &coordin
 
 void game_field::activate_bonus_cell(set <pair_ii> &bonus_set,
                                      const pair_ii &coordinate) {
-    if(!field[coordinate.first][coordinate.second]
-       || field[coordinate.first][coordinate.second]->is_empty())
+    if(!field[coordinate.first][coordinate.second])
+        return;
+
+    downdrade_s.insert(coordinate);
+    clearice_s.insert(coordinate);
+    opencage_s.insert(coordinate);
+
+    if(field[coordinate.first][coordinate.second]->is_empty())
         return;
 
     if(bonus_set.find({coordinate.first, coordinate.second}) ==
@@ -540,6 +553,9 @@ void game_field::create_execution_coordinates(set<pair_ii> &execution_coordinate
         activate_bonus(execution_bonus_coordinates, it);
     }
     for(auto &it : execution_bonus_coordinates) {
+        if(execution_coordinates.find(it) != execution_coordinates.end())
+            continue;
+
         execution_coordinates.insert(it);
     }
 
@@ -612,10 +628,12 @@ void game_field::create_creation_set() {
 void game_field::set_upper_content(size_t row, size_t col, execution_set_t &execution_set) {
     for(int i = row - 1; i >= 0; i--) {
         if(field[i][col] && !field[i][col]->is_empty()) {
+            create_distance[col] = field[row][col]->get_position().y -
+                                   field[i][col]->get_position().y;
+
             execution_set.insert(
                     std::make_shared <create_action> (field[row][col], field[i][col]->get_content(),
-                                                      field[row][col]->get_position().y -
-                                                      field[i][col]->get_position().y));
+                                                      create_distance[col]));
             field[i][col]->clear_content();
             return;
         }
@@ -623,8 +641,10 @@ void game_field::set_upper_content(size_t row, size_t col, execution_set_t &exec
 
     shared_ptr <cell_content> new_content =
             generate_dressed_content(random_element::get_content_t());
+    if(create_distance[col] == 0)
+        create_distance[col] = field[row][col]->get_position().y - area::position.y;
     execution_set.insert
-            (std::make_shared <create_action> (field[row][col], new_content));
+            (std::make_shared <create_action> (field[row][col], new_content, create_distance[col]));
 }
 
 void game_field::set_change_cell(uint row, uint col) {
