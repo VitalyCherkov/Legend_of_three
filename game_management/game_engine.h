@@ -40,6 +40,7 @@ public:
     const shared_ptr <sf::RenderWindow> &get_window() const;
     const shared_ptr <designer_t> &get_designer() const;
     void load_new_level();
+    void load_level(uint index);
     float get_time() const;
 
 private:

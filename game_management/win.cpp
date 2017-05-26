@@ -89,6 +89,11 @@ shared_ptr <grid> win::create_main_grid(game_engine *engine) {
     return main_grid;
 }
 
+void win::create_score_info(const shared_ptr<grid> &main_grid,
+                            const game_engine *engine) {
+    
+}
+
 void win::mouse_pressed_action(game_engine *engine) {
     if(!main_grid->is_focus_on())
         return;

@@ -23,6 +23,9 @@ public:
 private:
     win(game_engine* engine);
     shared_ptr <grid> create_main_grid(game_engine* engine);
+    void create_score_info(const shared_ptr <grid> &main_grid,
+                           const game_engine *engine);
+
     void mouse_pressed_action(game_engine *engine);
     void process_button_click(game_engine *engine);
     void mouse_released_action();

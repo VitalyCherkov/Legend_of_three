@@ -178,7 +178,7 @@ void play::load_level(game_engine *engine) {
     field = make_shared <game_field> (
             area(engine->get_window(),
                  sf::Vector2f(210, 0),
-                 sf::Vector2f(600, 600)),
+                 sf::Vector2f(800, 800)),
             engine->get_level(),
             engine->get_designer()
     );

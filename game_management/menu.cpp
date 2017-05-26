@@ -6,6 +6,7 @@
 #include "settings.h"
 #include "play.h"
 #include "menu.h"
+#include "levels_map.h"
 
 
 menu* menu::instance(game_engine *engine) {
@@ -100,6 +101,9 @@ void menu::process_button_click(game_engine *engine) {
     if(button_name == "Play") {
         engine->pop_state();
         engine->push_state(play::instance(engine));
+    }
+    if(button_name == "Levels") {
+        engine->push_state(levels_map::instance(engine));
     }
     if(button_name == "Settings") {
         engine->push_state(settings::instance(engine));

@@ -92,7 +92,11 @@ const shared_ptr <designer_t> &game_engine::get_designer() const {
 
 void game_engine::load_new_level() {
     int new_num = lvl.get_level_number() + 1;
-    lvl.load_from_file(global_parameters::get_level_file(new_num));
+    load_level(new_num);
+}
+
+void game_engine::load_level(uint index) {
+    lvl.load_from_file(global_parameters::get_level_file(index));
     play::instance(this)->load_level(this);
 }
 
